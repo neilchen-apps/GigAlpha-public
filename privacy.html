@@ -99,6 +99,7 @@
         <li>裝置資訊（裝置型號、作業系統版本）</li>
         <li>使用行為（與廣告互動之紀錄）</li>
         <li>IP 位址（用於錯誤診斷）</li>
+        <li><strong>粗略位置：</strong>我們所串接的第三方服務（Google AdMob 廣告服務、Google 帳號連結元件）於其隱私資訊清單中聲明，其會收集<strong>由 IP 位址推得的粗略位置</strong>（約至城市層級）。此項由該等服務自行收集與使用，<strong>開發者不會取得、不會儲存，也不會用於本應用程式的任何功能</strong>。它與本政策第 5 節所述之「熱區回報」「跑單地點」「跑單軌跡」是<strong>完全不同的三件事</strong>——後三者的規則見該節。</li>
         <li><strong>匿名使用行為統計：</strong>為了解各項功能的使用率、持續優化產品，我們會收集完全匿名的功能使用次數（例如：記帳、匯出、備份等功能被開啟的次數、粗略至 3 小時的使用時段，以及您的應用程式版本），並以裝置端隨機產生、與您的 Google 帳號、Email 及廣告識別碼皆無關聯的匿名編號進行去重複計算。此資料不含精確時間點、財務數字或個人身分資訊，您可隨時於「設定 → 隱私與數據」關閉此功能。</li>
         <li><strong>匿名錯誤診斷資訊：</strong>當應用程式發生異常關閉時，我們會收集當下的錯誤堆疊、應用程式版本與裝置型號（不含您的記帳內容與位置；錯誤堆疊由系統自動產生、非為收集個人資訊之用，我們亦盡力避免其中夾帶可識別個人之內容），並以與「匿名使用行為統計」相同之裝置端隨機匿名編號回報至開發者伺服器，僅用於修復程式錯誤。關閉「設定 → 隱私與數據」之分享選項即會同時停止此回報。</li>
     </ul>
@@ -118,6 +119,7 @@
     <ul>
         <li><strong>Google Play Services:</strong> <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></li>
         <li><strong>Google AdMob（廣告服務）:</strong> 我們使用 Google AdMob 顯示廣告。該服務可能收集廣告識別碼、裝置資訊與使用行為資料以提供個人化廣告。您可於您的行動裝置設定中選擇關閉「個人化廣告」或重設廣告 ID。</li>
+        <li><strong>Google 帳號連結元件（Google Sign-In，用於雲端備份授權）:</strong> 當您選擇「連結 Google 帳號」以便將備份寫入<strong>您自己的</strong>雲端硬碟時，本應用程式使用 Google 提供的帳號連結元件完成授權。該元件於其隱私資訊清單中聲明會收集下列資料：<strong>姓名、電子郵件、電話號碼、粗略位置、使用者識別碼、裝置識別碼與使用資料</strong>；其中裝置識別碼與使用資料係供 <strong>Google 自身之分析用途</strong>。⚠️ <strong>這些是該元件收集的，不是開發者收集的</strong>——開發者取得的只有您的 Google 帳號 Email（用途見第 12 節「免費使用權名單核對」），其餘各項<strong>開發者不會取得、不會儲存</strong>。該元件聲明其<strong>不進行跨應用程式追蹤</strong>。您不連結 Google 帳號即不會使用到此元件。<a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
         <li><strong>Google Play Billing（付款處理）:</strong> 「贊助支持」之訂閱與單次付款皆由 Google Play 處理，並依 Google 之隱私權政策辦理。我們不接觸您的付款工具明細。</li>
         <li><strong>台灣中油牌價查詢（油價自動帶入）:</strong> 當您在「保本設定」中開啟「自動帶入中油牌價」時，本應用程式每週最多一次向台灣中油公開的牌價資料端點查詢92／95／98 無鉛汽油的參考牌價。此查詢<strong>不會傳送您的任何個人資料、帳本內容或應用程式識別資訊</strong>；如同一般瀏覽網頁，對方可能記錄到您的 IP 位址。您可隨時關閉該選項並自行填寫油價，關閉後即不會再發出此查詢。</li>
         <li><strong>OpenStreetMap 地圖圖磚（作戰分析地圖）:</strong> 當您開啟「作戰分析」的地圖檢視時，本應用程式會向 OpenStreetMap 基金會的公開圖磚伺服器載入地圖底圖。此載入<strong>不會傳送您的帳本內容、跑單紀錄或應用程式識別資訊</strong>；但如同一般瀏覽網頁，對方可能記錄到您的 IP 位址，以及您當下檢視的地圖範圍（約略反映您有興趣的地區）。您不開啟地圖檢視即不會發出此載入。OpenStreetMap 之資料處理適用其自身之隱私權政策。</li>
@@ -172,7 +174,21 @@
         <li>使用者可透過解除安裝應用程式，徹底刪除所有本地應用程式資料。</li>
     </ul>
 
-    <h2>13. 聯絡我們 (Contact Us)</h2>
+    <h2>13. iOS 版本（Apple App Store）之差異 (iOS Version)</h2>
+    <p>本應用程式的 iOS 版本與 Android 版本<strong>功能並不完全相同</strong>，兩者的版本號亦各自獨立、數字大小不代表功能多寡。就資料處理而言，下列各點<strong>取代或補充</strong>本政策前述內容；未列出者與前述相同。</p>
+    <ul>
+        <li>🔴 <strong>iOS 版沒有「接單畫面辨識」與「留存派單卡截圖」。</strong>本政策第 3 節中關於螢幕擷取、畫面辨識、派單卡截圖留存與辨識診斷回報的各項說明，<strong>在 iOS 版上完全不適用</strong>——iOS 版不會擷取您的畫面，也不會儲存任何畫面影像。</li>
+        <li>🔴 <strong>社群熱區：iOS 版只讀取，不回報。</strong>第 5 節（一）所述之「熱區回報」在 iOS 版<strong>並未實作</strong>：iOS 版會向開發者伺服器<strong>讀取</strong>已聚合的熱區資料以顯示地圖，但<strong>不會上傳任何網格代碼或時間戳記</strong>。您在 iOS 版看到的熱區，來自其他平台使用者的回報。此事亦載明於該功能的畫面上。</li>
+        <li><strong>跑單軌跡與跑單地點</strong>：規則與第 5 節（二）（三）相同（記錄內容、取樣頻率、起訖不裁切、預設不上雲、可隨時關閉）。⚠️ 兩點差異：（一）iOS 版顯示地圖時使用 <strong>Apple 地圖（MapKit）</strong>而非 Google 地圖，該請求適用 Apple 自身之隱私權政策，<strong>您的軌跡座標不會傳送給 Apple</strong>；（二）iOS 系統會在您啟用背景定位數日後<strong>主動再詢問一次</strong>是否繼續允許，若您當時選擇「僅在使用 App 期間」，軌跡將自此不再記錄。</li>
+        <li><strong>匿名錯誤診斷</strong>：iOS 版的當機資訊由 <strong>Apple 的系統元件（MetricKit）</strong>收集後交付本應用程式，再依第 1 節（2）所述回報。⚠️ 因此 iOS 版的當機資訊<strong>通常會延遲約一日以上</strong>才送出，且同樣受「設定 → 隱私與數據」之分享選項控制，關閉即不傳送。</li>
+        <li><strong>廣告</strong>：iOS 版使用 Google AdMob，但<strong>不會要求「允許追蹤」授權</strong>，因此<strong>不會取得 IDFA（廣告識別碼）</strong>，僅顯示<strong>非個人化廣告</strong>。</li>
+        <li><strong>報酬檢舉書之個人資料</strong>：iOS 版同樣<strong>僅儲存於您的裝置</strong>，加密方式為 <strong>Apple Keychain 保管金鑰、檔案套用系統檔案保護</strong>（相當於 Android 版之 Android Keystore）。同樣不會傳送至開發者伺服器、不會納入雲端備份，並可於設定中一鍵刪除（含加密金鑰）。</li>
+        <li><strong>iOS 版不提供</strong>：中油牌價自動帶入、OpenStreetMap 地圖圖磚。本政策第 3 節中關於該二項服務的說明在 iOS 版上不適用。</li>
+        <li><strong>付費訂閱</strong>：iOS 版之訂閱由 <strong>Apple App Store</strong> 處理，適用 Apple 之隱私權政策；開發者不接觸您的付款工具明細。⚠️ <strong>Google Play 與 App Store 的購買紀錄不互通</strong>，在其中一個平台購買的訂閱無法在另一個平台還原。</li>
+        <li><strong>雲端備份</strong>：與 Android 版相同，寫入<strong>您自己的</strong> Google 雲端硬碟中一個應用程式專屬的隱藏資料夾；開發者伺服器不會收到您的帳本。</li>
+    </ul>
+
+    <h2>14. 聯絡我們 (Contact Us)</h2>
     <p>如果您對本隱私權政策有任何疑問，歡迎與我們聯繫：</p>
     <ul>
         <li>開發者：GigAlpha Studio</li>
