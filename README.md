@@ -5,9 +5,9 @@
 ## 連結
 
 - 📱 **下載 App (Google Play)**：https://play.google.com/store/apps/details?id=com.neilchen.gigpilot
-- 🌐 **介紹網頁**：https://neilchen-apps.github.io/GigAlpha-public/
-- 🔒 **隱私權政策**：https://neilchen-apps.github.io/GigAlpha-public/privacy.html
-- 📄 **使用條款**：https://neilchen-apps.github.io/GigAlpha-public/terms.html
+- 🌐 **介紹網頁**：https://www.gigalpha-studio.com/
+- 🔒 **隱私權政策**：https://www.gigalpha-studio.com/privacy.html
+- 📄 **使用條款**：https://www.gigalpha-studio.com/terms.html
 - ✉️ **聯絡我們**：neil.chen.apps@gmail.com
 
 ## 關於本專案
