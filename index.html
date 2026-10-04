@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>GigAlpha 戰情室 - 外送零工收益精算與社群雷達</title>
-    <meta name="description" content="專為外送員打造的記帳與熱區追蹤工具。精算時薪、淨利潤，並透過匿名社群數據掌握接單熱區。隱私優先，數據只留在你的裝置與個人雲端。">
+    <title>GigAlpha 戰情室 - 外送零工收益精算與作戰分析</title>
+    <meta name="description" content="專為外送員打造的收益精算工具。精算時薪與淨利潤、接單畫面自動辨識、懸浮視窗快速記帳、跑單軌跡與個人作戰分析。財務資料只留在你的裝置與個人雲端。">
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.gigalpha-studio.com/">
     <meta property="og:title" content="GigAlpha 戰情室 - 外送零工收益精算工具">
-    <meta property="og:description" content="專為外送員打造的淨利潤精算工具。扣除油錢等隱形成本，精算真實時薪。懸浮視窗 3 秒記帳，資料隱私本地掌控。">
+    <meta property="og:description" content="專為外送員打造的淨利潤精算工具。扣除油錢等隱形成本，精算真實時薪。懸浮視窗 3 秒記帳、接單畫面自動辨識，財務資料本地掌控。">
     <meta property="og:image" content="https://www.gigalpha-studio.com/assets/icon.png">
     <meta property="og:locale" content="zh_TW">
     <meta name="twitter:card" content="summary_large_image">
@@ -662,8 +662,8 @@
 
     <section id="features">
         <div class="section-head reveal">
-            <h2>核心功能特色</h2>
-            <p>專注幫你精算利潤、保護隱私、簡化記帳。</p>
+            <h2>功能特色</h2>
+            <p>專注幫你精算利潤、保護隱私、簡化記帳。部分進階功能需訂閱，詳見常見問題。</p>
         </div>
         <div class="features">
             <div class="feature-card reveal">
@@ -674,7 +674,7 @@
             <div class="feature-card reveal">
                 <span class="icon">🔒</span>
                 <h3>極致隱私保護</h3>
-                <p>拒絕中心化追蹤！你的精確 GPS 與財務數據皆在地端運算，僅限個人 Google Drive 備份，絕不存入開發者伺服器。</p>
+                <p>你的精確 GPS 與財務數據皆在地端運算，僅限個人 Google Drive 備份，不會傳送到開發者伺服器；僅傳送去識別化的匿名統計，詳見隱私權政策。</p>
             </div>
             <div class="feature-card reveal">
                 <span class="icon">⚡</span>
@@ -691,6 +691,27 @@
                 <h3>個人雲端備份</h3>
                 <p>透過 Google Drive 帳號備份與還原資料，換機、重灌都不怕記錄遺失，資料仍由你個人掌控。</p>
             </div>
+            <div class="feature-card reveal">
+                <span class="icon">🤖</span>
+                <h3>接單畫面自動辨識</h3>
+                <p>派單卡跳出時自動帶入金額、單數、店家與訂單編號，並可保存派單卡與送達畫面截圖。辨識可能有誤，請自行核對。需訂閱，含 10 天試用。</p>
+            </div>
+            <div class="feature-card reveal">
+                <span class="icon">🗺️</span>
+                <h3>跑單軌跡地圖</h3>
+                <p>記錄每一班的完整跑單路線並在地圖上檢視，可多班疊圖、標出停留時段，用來回想漏記的單與核對實際里程。需訂閱。</p>
+            </div>
+            <div class="feature-card reveal">
+                <span class="icon">🎯</span>
+                <h3>保本線與疲勞提醒</h3>
+                <p>設定目標時薪與成本，以燈號判斷這一單划不划算；連續跑單或當日工時過長時提醒你休息，並支援語音播報。</p>
+            </div>
+            <div class="feature-card reveal">
+                <span class="icon">📈</span>
+                <h3>個人作戰分析與匯出</h3>
+                <p>依平台與時段檢視單量與時薪，找出最值得跑的時段；帳本與圖表資料可匯出 Excel，並提供兩週結算報表。</p>
+            </div>
+
         </div>
     </section>
 
@@ -723,15 +744,17 @@
         <div class="faq-list">
             <details class="faq-item reveal">
                 <summary>我的資料會上傳到開發者的伺服器嗎？</summary>
-                <p class="faq-answer">完全不會。GigAlpha 所有財務與記帳數據均儲存在你的裝置本機。若選擇啟用雲端備份，資料僅會同步到你個人的 Google Drive 帳號，開發者無法存取你的任何資料。</p>
+                <p class="faq-answer">你的<strong>記帳與財務資料不會上傳</strong>到開發者的伺服器，只儲存在你的裝置本機；若啟用雲端備份，也只會同步到你個人的 Google Drive，開發者無法存取。<br><br>
+                    為了讓功能運作與改善產品，App 會傳送少量<strong>去識別化</strong>的資料，例如：匿名的功能使用次數、異常關閉時的錯誤診斷資訊、使用「完成外送 +1」時用於社群熱圖的網格代碼與時長級距（非精確位置與時間）。若你連結了 Google 帳號，Email 會用來核對你是否列於免費使用名單。完整清單請見<a href="privacy.html">隱私權政策</a>。</p>
             </details>
             <details class="faq-item reveal">
                 <summary>使用 GigAlpha 需要建立帳號嗎？</summary>
-                <p class="faq-answer">不需要。核心記帳功能完全離線可用，無需任何帳號。若想使用 Google Drive 雲端備份功能，才需要以 Google 帳號登入，且僅用於存取你個人的雲端硬碟。</p>
+                <p class="faq-answer">不需要。核心記帳功能完全離線可用，無需註冊 GigAlpha 帳號。若想使用 Google Drive 雲端備份功能，才需要以 Google 帳號登入，用來存取你個人的雲端硬碟。付費訂閱由 Google Play 管理，不需要另外註冊。</p>
             </details>
             <details class="faq-item reveal">
                 <summary>支援哪些外送或接案平台？</summary>
-                <p class="faq-answer">GigAlpha 不限特定平台，適用所有外送（Foodpanda、UberEats、Lalamove 等）、零工或自由接案工作。你自由輸入每筆收入與支出，不依賴任何平台 API 或授權。</p>
+                <p class="faq-answer">GigAlpha 不限特定平台，適用所有外送（Foodpanda、UberEats、Lalamove 等）、零工或自由接案工作。基本記帳由你自行輸入每筆收入與支出，不依賴任何平台 API 或授權。<br><br>
+                    若訂閱「自動辨識」，經你授權螢幕擷取後，App 會辨識外送平台畫面上的派單卡，自動帶入金額、單數、店家與訂單編號。辨識結果可能有誤，請自行核對，並以平台實際結算為準。</p>
             </details>
             <details class="faq-item reveal">
                 <summary>懸浮視窗怎麼啟用？</summary>
